@@ -6762,4 +6762,27 @@ button.close {
 .p-about {
   font-size: 1.5em;
 }
+
+.div-square215px {
+  width: 215px;
+  height: 215px;
+  margin: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.div-square215px  .img-responsive {
+    display: block;
+    width: auto;
+    max-height: 100%;
+}
+
+.div-square215px img {
+    display: block;
+    margin: auto;
+}
 /*# sourceMappingURL=bootstrap.css.map */
